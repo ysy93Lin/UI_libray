@@ -1,0 +1,21 @@
+{
+  "name": "root",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "^16.0.3",
+    "commitizen": "^4.2.4",
+    "cz-customizable": "^6.3.0",
+    "lerna": "^4.0.0",
+    "standard-version": "^9.3.2",
+    "yorkie": "^2.0.0"
+  },
+  "scripts": {
+    "commit": "git cz",
+    "release": "standard-version"
+  },
+  "config": {
+    "commitizen": {
+      "path": "cz-customizable"
+    }
+  }
+}
